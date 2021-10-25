@@ -51,13 +51,5 @@ function getFortune(){
 }
 
 
-let params = encodeURIComponent("magic");
-let uri = "https://8ball.delegator.com/magic/JSON/" + params;
-fetch(uri)
-  .then(response => response.json())
-  .then(json => {
-    console.log(json);
-  });
-
 
  
