@@ -1,0 +1,35 @@
+<html>
+    <head>
+		<!-- Javascript  -->
+		<script src="script.js"></script>
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        <!-- font -->
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <!-- Favicon_Image -->
+		<link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+		<title>Magic 8-Ball</title>
+    </head>
+    <body>
+        <div class="container"><!-- Everything -->
+            <h1>Magic 8-Ball</h1>
+            <div class="eightball"><!-- 8_Ball -->
+                <img id="ball"  alt="Magic 8 Ball" src="8ball.png">
+			</div>
+			<!-- Answer_Given -->
+			<div id="fortune">
+            </div>
+			<div class="question_box"> 
+				<!-- Input_Text_For_Questions-->
+				<input type="text" id="question" placeholder="Tell Me Your Desire..."/>
+			</div>
+			<div class="button">
+				<!-- Bootstrap_Button -->
+				<!-- Simplifies_Button_Making -->
+				<button class="btn btn-primary btn-lg" onClick="shake()">Submit Answer</button>
+			</div>
+		</div>
+    </body>
+</html>
